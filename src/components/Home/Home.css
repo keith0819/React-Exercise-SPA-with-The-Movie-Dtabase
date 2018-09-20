@@ -1,0 +1,9 @@
+.container.home {
+    width: 100%;
+}
+.wrapper.home {
+    margin: 0 auto;
+}
+.content.home p {
+    text-align: center;
+}

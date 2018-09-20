@@ -1,0 +1,32 @@
+.container {
+    width: 100%;
+}
+.wrapper {
+    width: 100%;
+    margin: 0 auto;
+}
+.content-main {
+    display: flex;
+    width: 60%;
+    margin: 0 auto;
+}
+.content-main_image {
+    width: 30%;
+    text-align: center;
+}
+.content-main_image img {
+    box-shadow: 2px 2px 6px rgb(158, 158, 158);
+}
+.content-main_info {
+    width: 70%;
+}
+@media screen and ( min-width: 750px ) {
+    .content-main {
+        flex-direction: row;
+    }
+    .content-main_image img {
+        width: 300px;
+        height: 450px;
+        border-radius: 20px;
+    }
+}
